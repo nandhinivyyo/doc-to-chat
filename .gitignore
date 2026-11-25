@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+backend/venv/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+*.local
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Generated pipeline artifacts & uploaded data
+data/pdfs/*.pdf
+!data/pdfs/.gitkeep
+extracted_data/
+!extracted_data/.gitkeep
+chunk_outputs/
+vector_store/
+evaluation_results/
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
